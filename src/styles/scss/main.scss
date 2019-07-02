@@ -3,11 +3,10 @@
 $primary-color: #79a7f5;
 $standart-color: #474747;
 body {
-  background-color: #e2e0e0;
+  background-color: #f1eeee;
   font-family: "Roboto", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
-  height: 2000px;
 }
 
 .nav-wrapper {
@@ -21,21 +20,23 @@ body {
     max-height: 50px;
   }
 }
-
+.bold {
+  font-weight: bold;
+}
+.font-standart {
+  color: $standart-color;
+}
+.font-highlight {
+  text-decoration: none;
+  line-height: 1;
+  color: $primary-color;
+}
 .welcome-wrapper {
-  padding: 200px 20px;
+  padding: 200px 20px 100px 20px;
   font-size: 32px;
-
+  height: 100vh;
   p {
     margin: 0;
-  }
-  .font-standart {
-    color: $standart-color;
-  }
-  .font-highlight {
-    text-decoration: none;
-    line-height: 1;
-    color: $primary-color;
   }
 
   .btn {
@@ -68,4 +69,38 @@ body {
   height: auto;
   margin: 0 auto;
   margin-top: 15%;
+}
+
+.about-wrapper {
+  margin-top: 50px;
+  h4 {
+    margin-top: -10px;
+  }
+  color: $standart-color;
+  font-size: 1.5em;
+  a {
+    transition: 0.3s;
+    color: orangered;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.profile-pic {
+  max-width: 250px;
+  height: auto;
+  border-radius: 2px;
+  box-shadow: 2px 5px 10px 3px lighten($standart-color, 30%);
+}
+.info {
+  padding-top: 20px;
+  margin-left: 270px;
+  p {
+    margin: 5px;
+  }
+}
+
+.projects {
+  margin-top: 150px;
 }
