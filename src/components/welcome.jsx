@@ -4,11 +4,15 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Welcome = () => {
   return (
-    <div className="welcome-wrapper">
-      <div className="container">
+    <div className="welcome-wrapper" data-aos="fade-up">
+      <div
+        className="container"
+        data-aos="zoom-in-left"
+        data-aos-duration="450"
+      >
         <p className="font-standart">Привет,</p>
         <span className="font-standart">Я, </span>{" "}
-        <span className="font-highlight boldф">Исломбек Салимов</span>
+        <span className="font-highlight bold">Исломбек Салимов</span>
         <div className="participant">
           <span className="font-standart">Участник </span>
           <span className="font-highlight">#100daysofcode</span>
@@ -17,7 +21,7 @@ const Welcome = () => {
           Обо мне
         </AnchorLink>
       </div>
-      <div className="bg">
+      <div className="bg" data-aos="fade-left" data-aos-duration="500">
         <img src={bg} alt="" />
       </div>
       <div className="arrowdown">

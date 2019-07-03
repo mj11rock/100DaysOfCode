@@ -115,7 +115,8 @@ body {
 }
 
 .text {
-  margin: 10px 20px 0 20px;
+  margin: 10px 45px 0 15px;
+  text-align: justify;
 }
 .discription {
   margin-top: 20px;
@@ -133,10 +134,42 @@ body {
   &:active {
     background-color: darken(#474747, 10%);
   }
+  &:focus {
+    background-color: darken(#474747, 15%);
+  }
 }
 
 .projects {
   .col {
     margin: 50px 0;
   }
+}
+
+.contacts {
+  margin: 50px auto;
+  ul {
+    li {
+      display: inline;
+      margin: 0 1.5em;
+      list-style: none;
+    }
+  }
+  svg {
+    width: 4em;
+    height: 4em;
+    fill: black;
+    border: 3px solid $primary-color;
+    padding: 0.7em 0.3em;
+
+    border-radius: 50%;
+
+    &:hover {
+      fill: white;
+      background-color: $primary-color;
+    }
+  }
+}
+
+.social-nets {
+  margin-top: 50px;
 }

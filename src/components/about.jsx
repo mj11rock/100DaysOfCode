@@ -4,7 +4,12 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const About = () => {
   return (
-    <div className="about-wrapper container" id="start">
+    <div
+      className="about-wrapper container"
+      id="start"
+      data-aos="fade-up"
+      data-aos-duration="400"
+    >
       <h3 className="center font-highlight bold">Обо мне</h3>
       <h5 className="center font-standart">Если Вам интересно кто я</h5>
 
