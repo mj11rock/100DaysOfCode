@@ -9,7 +9,7 @@ const About = () => {
       <h5 className="center font-standart">Если Вам интересно кто я</h5>
 
       <div className="main-content row">
-        <div className="col s3 ">
+        <div className="col s3 center">
           <img src={profile} className="profile-pic " alt="" />
         </div>
         <div className="info col s9">

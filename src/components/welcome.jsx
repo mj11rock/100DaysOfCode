@@ -27,7 +27,7 @@ const Welcome = () => {
             focusable="false"
             data-prefix="fas"
             data-icon="chevron-down"
-            class="svg-inline--fa fa-chevron-down fa-w-14 scrollDown__StyledIcon-sc-11jmwtl-1 haUUnJ"
+            className="svg-inline--fa fa-chevron-down fa-w-14 scrollDown__StyledIcon-sc-11jmwtl-1 haUUnJ"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"

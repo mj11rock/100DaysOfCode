@@ -38,25 +38,24 @@ body {
   p {
     margin: 0;
   }
-
-  .btn {
-    border-radius: 10px;
-    background-color: $primary-color;
-
-    &:hover {
-      background-color: darken($primary-color, 5%);
-    }
-    &:active {
-      background-color: darken($primary-color, 10%);
-      transform: scale(0.97);
-      transition: 0.2s;
-    }
-  }
   .bg {
     position: absolute;
     z-index: -1;
     top: 50px;
     right: -70px;
+  }
+}
+.btn {
+  border-radius: 10px;
+  background-color: $primary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 5%);
+  }
+  &:active {
+    background-color: darken($primary-color, 10%);
+    transform: scale(0.97);
+    transition: 0.2s;
   }
 }
 .participant {
@@ -88,7 +87,7 @@ body {
 }
 
 .profile-pic {
-  max-width: 250px;
+  max-width: 230px;
   height: auto;
   border-radius: 2px;
   box-shadow: 2px 5px 10px 3px lighten($standart-color, 30%);
@@ -102,5 +101,42 @@ body {
 }
 
 .projects {
-  margin-top: 150px;
+  .image {
+    margin-top: 20px;
+    position: relative;
+  }
+  img {
+    position: absolute;
+    right: 10px;
+    max-width: 550px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px 3px lighten($standart-color, 30%);
+  }
+}
+
+.text {
+  margin: 10px 20px 0 20px;
+}
+.discription {
+  margin-top: 20px;
+}
+.options {
+  margin-top: 20px;
+  vertical-align: bottom;
+}
+.btn-git {
+  background-color: #474747;
+
+  &:hover {
+    background-color: darken(#474747, 5%);
+  }
+  &:active {
+    background-color: darken(#474747, 10%);
+  }
+}
+
+.projects {
+  .col {
+    margin: 50px 0;
+  }
 }
