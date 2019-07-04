@@ -14,7 +14,7 @@ const NavBar = () => {
         <a className="brand-logo">
           <img data-aos="fade-up" src={navLogo} className="nav-logo" alt="" />
         </a>
-        <ul className="right" data-aos="zoom-in-up">
+        <ul className="right hide-on-med-and-down" data-aos="zoom-in-up">
           <li data-aos="fade-up" data-aos-duration="400">
             <AnchorLink href="#start">О Себе</AnchorLink>
           </li>
