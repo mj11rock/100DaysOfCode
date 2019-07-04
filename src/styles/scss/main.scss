@@ -57,6 +57,9 @@ body {
     transform: scale(0.97);
     transition: 0.2s;
   }
+  &:focus {
+    background-color: darken($primary-color, 15%);
+  }
 }
 .participant {
   margin: 10px 0;
