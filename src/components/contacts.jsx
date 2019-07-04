@@ -4,9 +4,7 @@ const Contacts = () => {
   return (
     <div className="container" id="contacts" data-aos="fade-up">
       <h3 className="center font-highlight bold">Свяжитесь со мной</h3>
-      <h5 className="center font-standart">
-        Если хотите пообщаться со мной :)
-      </h5>
+      <h5 className="center font-standart">Буду рад любому сообщению</h5>
 
       <div className="contacts center">
         <h5 className="bold">mj11rock@gmail.com</h5>

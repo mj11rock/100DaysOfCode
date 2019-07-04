@@ -3,7 +3,7 @@
 $primary-color: #79a7f5;
 $standart-color: #474747;
 body {
-  background-color: #f1eeee;
+  background-color: #fff;
   font-family: "Roboto", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
@@ -123,7 +123,14 @@ body {
 }
 .options {
   margin-top: 20px;
-  vertical-align: bottom;
+  a {
+    font-size: 0.8em;
+  }
+  svg {
+    fill: white;
+    margin: -0.2em 0.3em;
+    width: 1em;
+  }
 }
 .btn-git {
   background-color: #474747;
