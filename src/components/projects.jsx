@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap-grid.min.css";
 import proj1 from "../img/poj/proj1.jpg";
 import proj2 from "../img/poj/proj2.jpg";
 import proj3 from "../img/poj/proj3.jpg";
@@ -15,9 +16,9 @@ const Projects = () => {
       <h5 className="center font-standart">Проекты, сделанные за 100 дней</h5>
 
       <div className="row">
-        <div className="col s6 discription" data-aos="fade-right">
+        <div className="col-md-6 col-12 discription" data-aos="fade-right">
           <div className="text">
-            <h4 className="title">Новогодние огни</h4>
+            <h4 className="title col-12">Новогодние огни</h4>
             Мое первое применение{" "}
             <span className="font-highlight">JavaScript</span> в веб-странице.
             Скрипт тут меняет цвета лампочек, контролирует их таймер и их
@@ -28,7 +29,7 @@ const Projects = () => {
           <div className="options row center">
             <a
               href="https:///github.com/mj11rock/lights"
-              className="btn btn-git col s3 offset-s2 "
+              className="btn btn-git col-3 offset-2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -51,7 +52,7 @@ const Projects = () => {
             </a>
             <a
               href="https://mj11rock.github.io/lights.github.io/"
-              className="btn btn-veiw col s3 offset-s2 "
+              className="btn btn-veiw col-3 offset-2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -74,17 +75,17 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="col s6 image" data-aos="fade-left">
+        <div className="col-md-6 col-12 image" data-aos="fade-down">
           <img src={proj2} alt="" />
         </div>
       </div>
       <div className="row">
-        <div className="col s6 image" data-aos="fade-right">
+        <h4 className="title col-12">Калькулятор</h4>
+        <div className="col-12 col-md-6 " data-aos="fade-right">
           <img src={proj3} alt="" />
         </div>
-        <div className="col s6 discription" data-aos="fade-left">
+        <div className="col-md-6 col-12 discription" data-aos="fade-down">
           <div className="text">
-            <h4 className="title">Калькулятор</h4>
             Еще одино приложение на{" "}
             <span className="font-highlight">Vanilla JavaScript</span>. Так как
             калькулятор - стандартный проект, который должен каждый уметь
@@ -96,7 +97,7 @@ const Projects = () => {
           <div className="options row center">
             <a
               href="https://github.com/mj11rock/Calculator.git"
-              className="btn btn-git col s3 offset-s2 "
+              className="btn btn-git col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -119,7 +120,7 @@ const Projects = () => {
             </a>
             <a
               href="https://mj11rock.github.io/Calculator.github.io/"
-              className="btn btn-veiw col s3 offset-s2 "
+              className="btn btn-veiw col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -144,9 +145,9 @@ const Projects = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s6 discription" data-aos="fade-right">
+        <div className="col-md-6 col-12 discription" data-aos="fade-right">
           <div className="text">
-            <h4 className="title">Время</h4>
+            <h4 className="title col-12">Время</h4>
             Тут я попробовал использовать внешние библиотеки(
             <span className="font-highlight"> Momentjs </span>) и анимации{" "}
             <span className="font-highlight"> canvas</span>. Выбирается часовый
@@ -156,7 +157,7 @@ const Projects = () => {
           <div className="options row center">
             <a
               href="https://github.com/mj11rock/timeZones"
-              className="btn btn-git col s3 offset-s2 "
+              className="btn btn-git col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -179,7 +180,7 @@ const Projects = () => {
             </a>
             <a
               href="https://mj11rock.github.io/timeZones.github.io/"
-              className="btn btn-veiw col s3 offset-s2 "
+              className="btn btn-veiw col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -202,17 +203,17 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="col s6 image" data-aos="fade-left">
+        <div className="col-md-6 col-12 image" data-aos="fade-down">
           <img src={proj4} alt="" />
         </div>
       </div>
       <div className="row">
-        <div className="col s6 image" data-aos="fade-right">
+        <h4 className="title col-12">Счетчик</h4>
+        <div className="col-md-6 col-12 image" data-aos="fade-right">
           <img src={proj5} alt="" />
         </div>
-        <div className="col s6 discription" data-aos="fade-left">
+        <div className="col-md-6 col-12 discription" data-aos="fade-down">
           <div className="text">
-            <h4 className="title">Счетчик</h4>
             Первое приложение на
             <span className="font-highlight"> React</span>. Делал по видео
             курсу. Тут я познакомился с основными приципами React.
@@ -220,7 +221,7 @@ const Projects = () => {
           <div className="options row center">
             <a
               href="https://github.com/mj11rock/counter-app"
-              className="btn btn-git col s3 offset-s2 "
+              className="btn btn-git col-3 offset-2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -243,7 +244,7 @@ const Projects = () => {
             </a>
             <a
               href="#"
-              className="btn btn-veiw col s3 offset-s2 "
+              className="btn btn-veiw col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -268,9 +269,9 @@ const Projects = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s6 discription" data-aos="fade-right">
+        <h4 className="title col-12">Калькулятор на React</h4>
+        <div className="col-md-6 col-12 discription" data-aos="fade-right">
           <div className="text">
-            <h4 className="title">Калькулятор на React</h4>
             Не знаю почему, но меня тянет делать красивые калькуляторы.
             Использовал совершенно другую логику, подсчеты не похожи на
             калькулятор, сделанный на чистом JavaScript. Тут уже использовались
@@ -280,7 +281,7 @@ const Projects = () => {
           <div className="options row center">
             <a
               href="https://github.com/mj11rock/react-calculator"
-              className="btn btn-git col s3 offset-s2 "
+              className="btn btn-git col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -303,7 +304,7 @@ const Projects = () => {
             </a>
             <a
               href="https://mj11rock.github.io/react-calculator/"
-              className="btn btn-veiw col s3 offset-s2 "
+              className="btn btn-veiw col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -326,17 +327,17 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="col s6 image" data-aos="fade-left">
+        <div className="col-md-6 col-12 image" data-aos="fade-down">
           <img src={proj6} alt="" />
         </div>
       </div>
       <div className="row">
-        <div className="col s6 image" data-aos="fade-right">
+        <h4 className="title col-12">Список дел</h4>
+        <div className="col-md-6 col-12 image" data-aos="fade-right">
           <img src={proj7} alt="" />
         </div>
-        <div className="col s6 discription" data-aos="fade-left">
+        <div className="col-md-6 col-12 discription" data-aos="fade-down">
           <div className="text">
-            <h4 className="title">Список дел</h4>
             Здесь приложение добавляет, либо убирает из массива запись. Для
             каждой записи <span className="font-highlight"> React </span>.
             создает отдельный id, чтобы была возможность работать с этими
@@ -345,7 +346,7 @@ const Projects = () => {
           <div className="options row center">
             <a
               href="https://github.com/mj11rock/toDos"
-              className="btn btn-git col s3 offset-s2 "
+              className="btn btn-git col-3 offset-2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -368,7 +369,7 @@ const Projects = () => {
             </a>
             <a
               href="https://mj11rock.github.io/toDos/"
-              className="btn btn-veiw col s3 offset-s2 "
+              className="btn btn-veiw col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -393,9 +394,9 @@ const Projects = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s6 discription" data-aos="fade-right">
+        <h4 className="title col-12">Метроном</h4>
+        <div className="col-md-6 col-12 discription" data-aos="fade-right">
           <div className="text">
-            <h4 className="title">Метроном</h4>
             Тут приложение работает со звуком. Нужно было просто импортировать
             <span className="font-highlight"> библиотеку </span> для работы со
             звуком и сами{" "}
@@ -404,7 +405,7 @@ const Projects = () => {
           <div className="options row center">
             <a
               href="https://github.com/mj11rock/metronome"
-              className="btn btn-git col s3 offset-s2 "
+              className="btn btn-git col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -427,7 +428,7 @@ const Projects = () => {
             </a>
             <a
               href="https://mj11rock.github.io/metronome/"
-              className="btn btn-veiw col s3 offset-s2 "
+              className="btn btn-veiw col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -450,17 +451,17 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="col s6 image" data-aos="fade-left">
+        <div className="col-md-6 col-12 image" data-aos="fade-down">
           <img src={proj8} alt="" />
         </div>
       </div>
       <div className="row">
-        <div className="col s6 image" data-aos="fade-right">
+        <h4 className="title col-12">Последняя Страница </h4>
+        <div className="col-md-6 col-12 image" data-aos="fade-right">
           <img src={proj1} alt="" />
         </div>
-        <div className="col s6 discription" data-aos="fade-left">
+        <div className="col-md-6 col-12 discription" data-aos="fade-down">
           <div className="text">
-            <h4 className="title">Последняя Страница </h4>
             Страница для подведения итогов. Все что было изучено(в основном
             <span className="font-highlight"> SASS, REACT, Git</span>
             ), я посторался вложить сюда
@@ -468,7 +469,7 @@ const Projects = () => {
           <div className="options row center">
             <a
               href="https://github.com/mj11rock/100DaysOfCode"
-              className="btn btn-git col s3 offset-s2 "
+              className="btn btn-git col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -491,7 +492,7 @@ const Projects = () => {
             </a>
             <a
               href="#"
-              className="btn btn-veiw col s3 offset-s2 "
+              className="btn btn-veiw col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
             >

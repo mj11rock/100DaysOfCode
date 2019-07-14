@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../img/profile.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import "materialize-css/dist/css/materialize.css";
 
 const About = () => {
   return (
@@ -14,10 +15,10 @@ const About = () => {
       <h5 className="center font-standart">Если Вам интересно кто я</h5>
 
       <div className="main-content row">
-        <div className="col s3 center">
+        <div className="col-sm-12 col-md-3 col-12 center">
           <img src={profile} className="profile-pic" alt="" />
         </div>
-        <div className="info col s9">
+        <div className="info col-sm-12 col-md-9 col-12">
           <p>
             {" "}
             Я, <span className="font-highlight">Исломбек Салимов</span> и мне 22
@@ -42,7 +43,7 @@ const About = () => {
             <span className="bold">"Что же дальше?!"</span>.
           </p>
         </div>
-        <div className="col s12">
+        <div className="col-12">
           <p>
             Путь был непрост, но в тоже время очень интересен. Я бросил{" "}
             <span className="font-highlight">вызов </span>

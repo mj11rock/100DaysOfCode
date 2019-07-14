@@ -8,6 +8,12 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+@media only screen and (max-width: 641px) {
+  .container {
+    max-width: 360px;
+    margin: 0 0;
+  }
+}
 
 .nav-wrapper {
   opacity: 0.7;
@@ -33,6 +39,9 @@ body {
 }
 .welcome-wrapper {
   padding: 200px 20px 100px 20px;
+  @media only screen and (max-width: 768px) {
+    padding: 50px 20px 100px 20px;
+  }
   font-size: 32px;
   height: 100vh;
   p {
@@ -50,7 +59,7 @@ body {
 }
 .btn {
   border-radius: 10px;
-  background-color: $primary-color;
+  background-color: $primary-color !important;
 
   &:hover {
     background-color: darken($primary-color, 5%);
@@ -90,27 +99,19 @@ body {
       text-decoration: underline;
     }
   }
-  .s3 {
-    @media only screen and (max-width: 738px) {
-      width: 100% !important;
-    }
-  }
-  .s9 {
-    @media only screen and (max-width: 738px) {
-      width: 100% !important;
-    }
-  }
 }
 
 .profile-pic {
   max-width: 230px;
   height: auto;
+  margin-top: 20px;
+  vertical-align: middle;
   border-radius: 2px;
   box-shadow: 2px 5px 10px 3px lighten($standart-color, 30%);
 }
 .info {
-  padding-top: 20px;
-  margin-left: 270px;
+  padding-top: 10px;
+
   p {
     margin: 5px;
   }
@@ -122,49 +123,23 @@ body {
     position: relative;
   }
   img {
-    position: absolute;
-    right: 10px;
     max-width: 550px;
+    @media only screen and (max-width: 738px) {
+      max-width: 300px;
+    }
     border-radius: 5px;
     box-shadow: 3px 3px 15px 3px lighten($standart-color, 30%);
-  }
-  .row {
-    @media only screen and (max-width: 768px) {
-      margin-bottom: 0 !important;
-      height: 300px;
-      .row {
-        height: 50px;
-      }
-    }
-  }
-  .s6 {
-    @media only screen and (max-width: 768px) {
-      width: 100% !important;
-      .image {
-        display: none;
-        height: 0;
-        margin: 0;
-        padding: 0;
-      }
-      img {
-        display: none;
-        height: 0;
-        margin: 0;
-        padding: 0;
-      }
-    }
   }
 }
 
 .text {
-  margin: 10px 45px 0 15px;
   text-align: justify;
 }
 .discription {
   margin-top: 20px;
 }
 .options {
-  margin-top: 20px;
+  margin-top: 10%;
   a {
     font-size: 0.8em;
   }
@@ -175,7 +150,7 @@ body {
   }
 }
 .btn-git {
-  background-color: #474747;
+  background-color: #474747 !important;
 
   &:hover {
     background-color: darken(#474747, 5%);
@@ -218,7 +193,9 @@ body {
     }
   }
 }
-
+.title {
+  text-align: center;
+}
 .social-nets {
   margin-top: 50px;
 }

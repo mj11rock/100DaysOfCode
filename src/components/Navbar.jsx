@@ -2,12 +2,13 @@ import React from "react";
 import "../styles/scss/main.scss";
 import navLogo from "../img/100days.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import "materialize-css/dist/css/materialize.css";
 
 const NavBar = () => {
   return (
     <nav
       className="nav-wrapper blue darken-3"
-      data-aos="zoom-in-left"
+      data-aos="zoom-in-right"
       data-aos-anchor-placement="center-center"
     >
       <div className="container ">

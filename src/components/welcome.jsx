@@ -1,13 +1,15 @@
 import React from "react";
 import bg from "../img/welcomeBg.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import "materialize-css/dist/css/materialize.css";
+import "materialize-css/dist/js/materialize";
 
 const Welcome = () => {
   return (
-    <div className="welcome-wrapper" data-aos="fade-up">
+    <div className="container welcome-wrapper" data-aos="fade-up">
       <div
         className="container"
-        data-aos="zoom-in-left"
+        data-aos="zoom-in-right"
         data-aos-duration="450"
       >
         <p className="font-standart">Привет,</p>
@@ -21,7 +23,7 @@ const Welcome = () => {
           Обо мне
         </AnchorLink>
       </div>
-      <div className="bg" data-aos="fade-left" data-aos-duration="500">
+      <div className="bg" data-aos="fade-right" data-aos-duration="500">
         <img src={bg} alt="" />
       </div>
       <div className="arrowdown">
