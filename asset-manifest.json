@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/100DaysOfCode/static/css/main.a06fd9c8.chunk.css",
+    "main.css": "/100DaysOfCode/static/css/main.415366b2.chunk.css",
     "main.js": "/100DaysOfCode/static/js/main.07ff4db4.chunk.js",
     "main.js.map": "/100DaysOfCode/static/js/main.07ff4db4.chunk.js.map",
     "runtime~main.js": "/100DaysOfCode/static/js/runtime~main.d787bdef.js",
@@ -9,10 +9,10 @@
     "static/js/2.8f852356.chunk.js": "/100DaysOfCode/static/js/2.8f852356.chunk.js",
     "static/js/2.8f852356.chunk.js.map": "/100DaysOfCode/static/js/2.8f852356.chunk.js.map",
     "index.html": "/100DaysOfCode/index.html",
-    "precache-manifest.24c77f2c5f68b4c888df6c318a985b87.js": "/100DaysOfCode/precache-manifest.24c77f2c5f68b4c888df6c318a985b87.js",
+    "precache-manifest.fd1f03686435b1b2281e192ac17a4e36.js": "/100DaysOfCode/precache-manifest.fd1f03686435b1b2281e192ac17a4e36.js",
     "service-worker.js": "/100DaysOfCode/service-worker.js",
     "static/css/2.815fe8c8.chunk.css.map": "/100DaysOfCode/static/css/2.815fe8c8.chunk.css.map",
-    "static/css/main.a06fd9c8.chunk.css.map": "/100DaysOfCode/static/css/main.a06fd9c8.chunk.css.map",
+    "static/css/main.415366b2.chunk.css.map": "/100DaysOfCode/static/css/main.415366b2.chunk.css.map",
     "static/media/100days.png": "/100DaysOfCode/static/media/100days.c061eb8c.png",
     "static/media/profile.jpg": "/100DaysOfCode/static/media/profile.1f9ac2b1.jpg",
     "static/media/proj1.jpg": "/100DaysOfCode/static/media/proj1.ce9f377b.jpg",
