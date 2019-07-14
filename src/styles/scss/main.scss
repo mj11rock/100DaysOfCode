@@ -51,7 +51,7 @@ body {
     position: absolute;
     z-index: -1;
     top: 50px;
-    right: -70px;
+    right: -350px;
     @media only screen and (max-width: 768px) {
       display: none;
     }
@@ -118,9 +118,9 @@ body {
 }
 
 .projects {
+  font-size: 1.3em;
   .image {
     margin-top: 20px;
-    position: relative;
   }
   img {
     max-width: 550px;

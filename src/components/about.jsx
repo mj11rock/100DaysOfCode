@@ -59,7 +59,7 @@ const About = () => {
               jQuery, Git, Sass, BEM, Node & npm, Webpack, ESLint, React, Redux,
               NextJS.{" "}
             </span>
-            Начал понимать JavaScript на другом уровне. Ежидневное писание кода
+            Начал понимать JavaScript на другом уровне. Ежедневное писание кода
             дало мне понимание и самого программирования в целом.
           </p>
           <p>

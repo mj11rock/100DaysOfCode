@@ -75,13 +75,13 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="col-md-6 col-12 image" data-aos="fade-down">
+        <div className="col-md-6 col-12 image center" data-aos="fade-down">
           <img src={proj2} alt="" />
         </div>
       </div>
       <div className="row">
         <h4 className="title col-12">Калькулятор</h4>
-        <div className="col-12 col-md-6 " data-aos="fade-right">
+        <div className="col-12 col-md-6 image center" data-aos="fade-right">
           <img src={proj3} alt="" />
         </div>
         <div className="col-md-6 col-12 discription" data-aos="fade-down">
@@ -203,13 +203,13 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="col-md-6 col-12 image" data-aos="fade-down">
+        <div className="col-md-6 col-12 image center" data-aos="fade-down">
           <img src={proj4} alt="" />
         </div>
       </div>
       <div className="row">
         <h4 className="title col-12">Счетчик</h4>
-        <div className="col-md-6 col-12 image" data-aos="fade-right">
+        <div className="col-md-6 col-12 image center" data-aos="fade-right">
           <img src={proj5} alt="" />
         </div>
         <div className="col-md-6 col-12 discription" data-aos="fade-down">
@@ -243,7 +243,7 @@ const Projects = () => {
               Исходник
             </a>
             <a
-              href="#"
+              href="https://mj11rock.github.io/counter-app/"
               className="btn btn-veiw col-3 offset-2 "
               target="_blank"
               rel="noopener noreferrer"
@@ -327,13 +327,13 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="col-md-6 col-12 image" data-aos="fade-down">
+        <div className="col-md-6 col-12 image center" data-aos="fade-down">
           <img src={proj6} alt="" />
         </div>
       </div>
       <div className="row">
         <h4 className="title col-12">Список дел</h4>
-        <div className="col-md-6 col-12 image" data-aos="fade-right">
+        <div className="col-md-6 col-12 image center" data-aos="fade-right">
           <img src={proj7} alt="" />
         </div>
         <div className="col-md-6 col-12 discription" data-aos="fade-down">
@@ -451,13 +451,13 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="col-md-6 col-12 image" data-aos="fade-down">
+        <div className="col-md-6 col-12 image center" data-aos="fade-down">
           <img src={proj8} alt="" />
         </div>
       </div>
       <div className="row">
         <h4 className="title col-12">Последняя Страница </h4>
-        <div className="col-md-6 col-12 image" data-aos="fade-right">
+        <div className="col-md-6 col-12 image center" data-aos="fade-right">
           <img src={proj1} alt="" />
         </div>
         <div className="col-md-6 col-12 discription" data-aos="fade-down">
