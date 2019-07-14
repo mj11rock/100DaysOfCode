@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "612b2a8a29f1ac5fde16db28659594cc",
+    "revision": "fcb2233dc2328a8e01f9b6b17f6d9eb9",
     "url": "/100DaysOfCode/index.html"
   },
   {
-    "revision": "8897ab9fdbb8a5775a43",
-    "url": "/100DaysOfCode/static/css/2.7abef457.chunk.css"
+    "revision": "eb36962c69583a200f1e",
+    "url": "/100DaysOfCode/static/css/2.815fe8c8.chunk.css"
   },
   {
-    "revision": "224a78f114006173ae4d",
-    "url": "/100DaysOfCode/static/css/main.3aaed71d.chunk.css"
+    "revision": "18a916dec45e6c7b8e4c",
+    "url": "/100DaysOfCode/static/css/main.76e7e828.chunk.css"
   },
   {
-    "revision": "8897ab9fdbb8a5775a43",
-    "url": "/100DaysOfCode/static/js/2.1b40fbd0.chunk.js"
+    "revision": "eb36962c69583a200f1e",
+    "url": "/100DaysOfCode/static/js/2.8f852356.chunk.js"
   },
   {
-    "revision": "224a78f114006173ae4d",
-    "url": "/100DaysOfCode/static/js/main.1c0731d4.chunk.js"
+    "revision": "18a916dec45e6c7b8e4c",
+    "url": "/100DaysOfCode/static/js/main.6d5f871d.chunk.js"
   },
   {
     "revision": "7c4248e3c04f6d0705f5",
